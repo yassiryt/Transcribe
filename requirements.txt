@@ -1,0 +1,9 @@
+
+Python (>=3.6)
+SpeechRecognition==3.8.1
+
+To use the code, ensure you have Python (version 3.6 or later) installed on your system. Then, install the SpeechRecognition library version 3.8.1 by running:
+
+pip install SpeechRecognition==3.8.1
+pip install tafrigh youtube-dl
+Set up environment variables: If you're transcribing audio from Wit.ai, make sure you have API keys for the languages you want to transcribe. Set these API keys as environment variables named WIT_API_KEY_ENGLISH, WIT_API_KEY_ARABIC, etc., depending on the language.
